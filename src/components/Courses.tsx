@@ -1,6 +1,17 @@
 'use client'
 import React from "react";
 import Image from "next/image";
+import website from"../../public/assets/courses/web-devlopment-img.jpg"
+import mobile from"../../public/assets/courses/app-development-img.jpeg"
+import graphic from"../../public/assets/courses/graphic-design.jpeg"
+import marketing from"../../public/assets/courses/digital-mark-img.jpg"
+import cyber from"../../public/assets/courses/cyber-sce-img.jpg"
+import amazon from"../../public/assets/courses/amazong-img.jpg"
+
+
+
+
+
 const Courses = () => {
   return (
     <div id="courses">
@@ -25,9 +36,11 @@ const Courses = () => {
             <div className="lg:w-1/3 sm:w-1/2 p-4 ">
               <div className="flex relative">
                 <Image 
-                  alt="gallery"
+                  alt="gallery-1"
+                  width={500}
+                  height={500}
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={("../../public/assets/courses/amazong-img.jpg")}
+                  src={amazon}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">
@@ -47,8 +60,10 @@ const Courses = () => {
               <div className="flex relative">
                 <Image 
                   alt="gallery-2"
+                  width={500}
+                  height={500}
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={("../../public/assets/courses/app-development-img.jpeg")}
+                  src={mobile}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">
@@ -66,8 +81,10 @@ Mobile App Development                  </h1>
               <div className="flex relative">
                 <Image 
                   alt="gallery-3"
+                  width={500}
+                  height={500}
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={("../../public/assets/courses/cyber-sce-img.jpg")}
+                  src={cyber}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">
@@ -86,8 +103,10 @@ Mobile App Development                  </h1>
               <div className="flex relative">
                 <Image 
                   alt="gallery-4"
+                  width={500}
+                  height={500}
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={("../../public/assets/courses/digital-mark-img.jpg")}
+                  src={marketing}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">
@@ -107,8 +126,10 @@ Mobile App Development                  </h1>
               <div className="flex relative">
                 <Image 
                   alt="gallery-5"
+                  height={500}
+                  width={500}
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={("../../public/assets/courses/graphic-design.jpeg")}
+                  src={graphic}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">
@@ -129,8 +150,10 @@ Mobile App Development                  </h1>
               <div className="flex relative">
                 <Image 
                   alt="gallery-6"
+                  height={500}
+                  width={500}
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={("../../public/assets/courses/web-devlopment-img.jpg")}
+                  src={website}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">

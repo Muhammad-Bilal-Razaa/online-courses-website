@@ -1,6 +1,8 @@
 'use client'
 import React from "react";
 import Image from "next/image";
+import flag from "../../public/assets/pakistan/pak-flag-2.jpg";
+import Quaid from "../../public/assets/pakistan/Quaid-img1.jpeg"
 const Header = () => {
   return (
     <div id="hero">
@@ -23,8 +25,10 @@ const Header = () => {
               <div className="rounded-lg h-full lg:w-[700px] overflow-hidden">
                 <Image
                   alt="content"
+                  width={500}
+                  height={500}
                   className="object-cover object-center rounded-[15px] md:border-[4px] border-opacity-75 shadow-2xl shadow-green-950 border-green-700 h-full w-full"
-                  src={("../../public/assets/pakistan/pak-flag-2.jpg")}
+                  src={flag}
                 />
               </div>
             </div>
@@ -34,8 +38,10 @@ const Header = () => {
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                <Image
                alt="content"
+               width={50}
+               height={50}
                className="object-cover object-center rounded-[15px] md:border-[2px] border-opacity-75 shadow-md shadow-green-950 border-green-700 h-full w-full"
-               src={("../../public/assets/pakistan/Quaid-img1.jpeg")}
+               src={Quaid}
                />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center">

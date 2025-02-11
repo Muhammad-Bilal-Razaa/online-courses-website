@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import logo from "../../public/assets/profile/course-logo.jpg"
 const Navbar = () => {
   return (
     <div id='Navbar ' className='sticky top-0 left-0 z-50 bg-stone-100 h-auto'>
@@ -13,7 +14,7 @@ const Navbar = () => {
  alt="logo"
   width={50} 
   height={50}
-  src={("../../public/assets/profile/course-logo.jpg")}
+  src={logo}
   className='rounded-full border-[2px] border-green-600'
   />
       <span className="ml-3 text-xl text-green-900 font-bold">SkillBloom</span>
