@@ -15,7 +15,23 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+background-color: snow;
 }
+
+@keyframes appear {
+  from{
+    opacity: 0;
+clip-path: inset(50% 100% 0 0);
+  }
+
+  to{
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+#courses,#contact{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
+}   
+
