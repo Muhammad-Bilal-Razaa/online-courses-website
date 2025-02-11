@@ -9,12 +9,12 @@ const Courses = () => {
           <div className="flex flex-col text-center w-full mb-20">
             <div className="fade-in">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-              Our Courses that we're Offering
+              Our Courses that we&apos;re Offering
             </h1>
             </div>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600">
               Unlock your potential with our free online courses, designed to
-              help you learn new skills at your own pace. Whether you're looking
+              help you learn new skills at your own pace. Whether you &apos;re looking
               to advance your career or explore new interests, we offer a wide
               range of high-quality courses—completely free. Start learning
               today and take the first step toward your future!
@@ -27,7 +27,7 @@ const Courses = () => {
                 <Image 
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../public/assets/courses/amazong-img.jpg")}
+                  src={("../../public/assets/courses/amazong-img.jpg")}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">
@@ -37,7 +37,7 @@ const Courses = () => {
                    Amazon FBA for Beginners
                   </h1>
                   <p className="leading-relaxed text-[15px]">
-                  Discover the power of Amazon with our free courses, designed to help you master Amazon's tools and platforms. our expert-led courses cover everything you need to succeed.
+                  Discover the power of Amazon with our free courses, designed to help you master Amazon &apos;s tools and platforms. our expert-led courses cover everything you need to succeed.
                   </p>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const Courses = () => {
                 <Image 
                   alt="gallery-2"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../public/assets/courses/app-development-img.jpeg")}
+                  src={("../../public/assets/courses/app-development-img.jpeg")}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">
@@ -67,7 +67,7 @@ Mobile App Development                  </h1>
                 <Image 
                   alt="gallery-3"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../public/assets/courses/cyber-sce-img.jpg")}
+                  src={("../../public/assets/courses/cyber-sce-img.jpg")}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">
@@ -87,7 +87,7 @@ Mobile App Development                  </h1>
                 <Image 
                   alt="gallery-4"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../public/assets/courses/digital-mark-img.jpg")}
+                  src={("../../public/assets/courses/digital-mark-img.jpg")}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">
@@ -108,7 +108,7 @@ Mobile App Development                  </h1>
                 <Image 
                   alt="gallery-5"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../public/assets/courses/graphic-design.jpeg")}
+                  src={("../../public/assets/courses/graphic-design.jpeg")}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">
@@ -130,7 +130,7 @@ Mobile App Development                  </h1>
                 <Image 
                   alt="gallery-6"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../public/assets/courses/web-devlopment-img.jpg")}
+                  src={("../../public/assets/courses/web-devlopment-img.jpg")}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-400 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">

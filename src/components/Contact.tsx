@@ -12,8 +12,8 @@ const Contact = () => {
       </h1>
       </div>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-700">
-        If you have any questions or inquiries, please don't hesitate to reach out
-        to us. We're here to help you navigate the world of learning and growth.
+        If you have any questions or inquiries, please don &apos;t hesitate to reach out
+        to us. We &apos;re here to help you navigate the world of learning and growth.
       </p>
     </div>
     <div className="lg:w-1/2 md:w-2/3 mx-auto">

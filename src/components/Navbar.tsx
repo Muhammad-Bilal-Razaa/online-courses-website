@@ -13,7 +13,7 @@ const Navbar = () => {
  alt="logo"
   width={50} 
   height={50}
-  src={require("../../public/assets/profile/course-logo.jpg")}
+  src={("../../public/assets/profile/course-logo.jpg")}
   className='rounded-full border-[2px] border-green-600'
   />
       <span className="ml-3 text-xl text-green-900 font-bold">SkillBloom</span>

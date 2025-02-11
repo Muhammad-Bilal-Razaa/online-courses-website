@@ -14,7 +14,7 @@ const Header = () => {
         </h1>
         </div>
         <p className="text-justify sm:text-center  italic text-[15px] sm:text-[16px] lg:text-[18px] text-black">
-        "Pakistan's strength lies in its people, their resilience, and the boundless potential for growth when knowledge meets opportunity."
+        &quot; Pakistan &apos; s strength lies in its people, their resilience, and the boundless potential for growth when knowledge meets opportunity.&quot;
         </p>
         
         <div className="container px-5 py-24 mx-auto flex flex-col">
@@ -24,7 +24,7 @@ const Header = () => {
                 <Image
                   alt="content"
                   className="object-cover object-center rounded-[15px] md:border-[4px] border-opacity-75 shadow-2xl shadow-green-950 border-green-700 h-full w-full"
-                  src={require("../../public/assets/pakistan/pak-flag-2.jpg")}
+                  src={("../../public/assets/pakistan/pak-flag-2.jpg")}
                 />
               </div>
             </div>
@@ -35,7 +35,7 @@ const Header = () => {
                <Image
                alt="content"
                className="object-cover object-center rounded-[15px] md:border-[2px] border-opacity-75 shadow-md shadow-green-950 border-green-700 h-full w-full"
-               src={require("../../public/assets/pakistan/Quaid-img1.jpeg")}
+               src={("../../public/assets/pakistan/Quaid-img1.jpeg")}
                />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center">
@@ -47,21 +47,21 @@ const Header = () => {
                   </h2>
                   <div className="w-12 h-1 bg-green-800 rounded mt-2 mb-4 text-gray-900" />
                   <p className="text-base">
-                  "With faith, discipline, and selfless devotion to duty, there is nothing worthwhile that you cannot achieve."</p>
+                  &quot; With faith, discipline, and selfless devotion to duty, there is nothing worthwhile that you cannot achieve.&quot;</p>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-green-400 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <p className="leading-relaxed text-lg mb-4">
-                  Welcome to "skillBloom", your gateway to free online
-                  learning in Pakistan! We offer a wide range of high-quality
+                  Welcome to &quot; skillBloom &quot;, your gateway to free online
+                  learning in Pakistan. We offer a wide range of high-quality
                   courses in various fields, including technology, business,
                   marketing, and more, all designed to help you enhance your
-                  skills and knowledge at no cost. Whether you're a student,
+                  skills and knowledge at no cost. Whether you are a student,
                   professional, or simply looking to learn something new, our
                   platform provides easy access to expert-led courses from top
                   institutions. Start your learning journey today and unlock new
                   opportunities for personal and professional growth—all from
-                  the comfort of your home!
+                  the comfort of your home.
                 </p>
                 <a className="text-green-800 inline-flex items-center">
                   Learn More
